@@ -4,7 +4,7 @@ This project is about developing, a touch typing speed tester for that I have us
 Files which are created:- 
 1. index.html - All html part has written in this file.
 2. style.css - All css part for better user interface and desiging is written in this file.
-3. script.js - This is the main file for responsivness and client side interaction, All the logic for word per minute count and mis-type count and Accuray count is written in this using javascript.
+3. index.js - This is the main file for responsivness and client side interaction, All the logic for word per minute count and mis-type count and Accuray count is written in this using javascript.
 
 
 Now talking about the first file Index.hmtl -
