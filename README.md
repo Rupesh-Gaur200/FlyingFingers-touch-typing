@@ -1,4 +1,4 @@
-# Chaabi-touch-typing
+# Chaabi-touch-typing - deployment link - https://flyingfingers.netlify.app/
 This project is about developing, a touch typing speed tester for that I have used HTML, CSS and Javascript
 
 Files which are created:- 
