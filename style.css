@@ -1,0 +1,92 @@
+
+
+body{
+    background-color:#353535;
+    font-family: 'Geologica', sans-serif;
+    box-sizing: border-box;
+
+    
+}
+.box{
+    width:100%;
+    
+   
+    margin-left: auto;
+    margin-right: auto ;
+}
+.Heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kablammo', cursive;
+    font-size:18px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color:#FFEA20;
+    transform:scale(120%);
+    cursor: pointer;
+    
+    
+}
+
+.question{
+   display: flex;
+   justify-content: center;
+   margin:20px;
+   font-family: 'Geologica', sans-serif;
+   font-size:25px;
+   color:#9cf404;
+}
+.typingarea{
+   max-width: 982px;
+    height: 257px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 20px solid #808285 ;
+    border-radius: 25px;
+
+
+}
+.button{
+    display: flex;
+       justify-content:center;
+       margin-top: 20px;
+
+}
+.btn{
+        width: 75px;
+        height: 40px;
+        border-radius:10px ;
+        background-color:#2e2f31;
+        color: #FFD369;
+        border-style: hidden;
+        cursor: pointer;
+        font-family: 'Roboto Mono', monospace;
+        font-style: oblique;
+        font-size: larger;
+}
+.btn:hover{
+    transform:scale(120%);
+    transition: color 0.3s ease;
+    color: #b3d26b;
+}
+.type{
+    width: 982px;
+    height: 257px;
+    resize: none;
+    background-color:#808285;
+    cursor: pointer;
+    border-style: hidden;
+    font-family: 'Geologica', sans-serif;
+    color:black;
+    font-size: 20px;
+  
+}
+.result{
+    margin:20px;
+    display :flex;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: larger;
+    color: hsl(115, 100%, 71%);
+}
