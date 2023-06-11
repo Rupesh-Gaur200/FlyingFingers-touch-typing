@@ -28,7 +28,7 @@ The tag which i have used here is
                  .btn-  start button to start the timmer to count time and after that to reset it.
                      .btn:hover - hover property to on start button.
                            .type - the content to be typed by user.
-                           .result - result container to display the result such as wpm , accuray , mis-typed , righlty typed char.
+                              .result - result container to display the result such as wpm , accuray , mis-typed , righlty typed char.
   
   
   
@@ -48,7 +48,31 @@ The tag which i have used here is
 }
     we can also use flex box and grid for this features but i have implemented the traditonal method, So for to know about the more styling you can refer to the style.css file which was already pushed in the repo.
   
-  
+  So moving forword let's dicuss - about the index.js file where all the javascript was written :- 
+    In this file all the logic to calculate speed of typing and accuray ,rightly typed and worngly typed count is calculated in using the following function and flow of that whole program  mentioned below :
+      
+     1. function start - when we click on the start button using addEventListeners('click' ) and this function will change the text-content to done and when user click on done then next function will be call..
+        2. the function which is exceuted is "function end ()" this function will stop the timer and calculates total time and then call a Check() function.
+          3. Now check function match thr user-input text and text to be typed and with help of this it will calculate the mis-typed and correctly typed charecters and then it will call an another function. 
+             4. Now the function called by check is "function result()" this function calculates the word per minute speed and set the values in result section where i haved used string template and place holder                  to set the values .
+                   5. after the the text of button will change to reset and when user click on reset button the reset function will exceuted and it will reset all the values of the fields so no pervious stored                           data will alter the new data.
+
+ so the flow of the functions is as follow :- 
+         
+    start funtion -> end function -> check function -> result function -> reset function 
+    
+    
+      Now varible which i have used
+        let acc;
+let starttime - to get start time
+let endtime-  to get end time when user completed the typing
+let totaltime; - total time taken to completing the task
+let res; - string template for displaying result
+let w=0; - mis-typed charecter counter
+let right=0; - correctly typed charecter counter
+let userarray; - user input array means the text user enter and to verifying storing into an array
+let speed; - calculated word per minute speed.
+    
  
  
 
