@@ -57,22 +57,22 @@ The tag which i have used here is
              4. Now the function called by check is "function result()" this function calculates the word per minute speed and set the values in result section where i haved used string template and place holder                  to set the values .
                    5. after the the text of button will change to reset and when user click on reset button the reset function will exceuted and it will reset all the values of the fields so no pervious stored                           data will alter the new data.
 
- so the flow of the functions is as follow :- 
+    so the flow of the functions is as follow :- 
          
     start funtion -> end function -> check function -> result function -> reset function 
     
     
-      Now varible which i have used
-        let acc;
-let starttime - to get start time
-let endtime-  to get end time when user completed the typing
-let totaltime; - total time taken to completing the task
-let res; - string template for displaying result
-let w=0; - mis-typed charecter counter
-let right=0; - correctly typed charecter counter
-let userarray; - user input array means the text user enter and to verifying storing into an array
-let speed; - calculated word per minute speed.
+       Now varible which i have used :- 
+                     let acc - to calulate accuracy 
+                       let starttime - to get start time
+                        let endtime-  to get end time when user completed the typing
+                          let totaltime; - total time taken to completing the task
+                            let res; - string template for displaying result
+                              let w=0; - mis-typed charecter counter
+                                let right=0; - correctly typed charecter counter
+                                  let userarray; - user input array means the text user enter and to verifying storing into an array
+                                    let speed; - calculated word per minute speed.
     
  
- 
+   That's all about the HTML , CSS and JAVASCRIPT i have used for more you can refer to main coding files and please feel free to give feedback so that i can learn more and improve more. 
 
