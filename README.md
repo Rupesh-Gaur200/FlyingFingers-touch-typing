@@ -33,8 +33,20 @@ The tag which i have used here is
   
   
   Now talking about second file style.css -
-  All the styling is done here means how to set the element to display a flawless user-interface 
-  please refer to above describe class beacause i have used similar class for css styling and for more refernce refer style.css file which is uploaded alredy in the repo.
+  In this file  the styling of the elements like button, typing area, display of text to be typed , heading and their property like font-color, font-size , font-family, padding, margin, etc these property are defined so that user will get and flawless user experince also in this file i have add the feature of responsive layout( like elment will manage according to the screen size) for that i have used a "box" class nested inside body tag.
+
+  actual code snippet -  <body> 
+  <div class="box"> </div>
+  <body>
+    
+    css- .box{
+    width:100%;
+    
+   
+    margin-left: auto;
+    margin-right: auto ;
+}
+    we can also use flex box and grid for this features but i have implemented the traditonal method, So for to know about the more styling you can refer to the style.css file which was already pushed in the repo.
   
   
  
