@@ -11,7 +11,7 @@ Now talking about the first file Index.hmtl -
 This file contains the overall skleton of the web application.
 
 The tag which i have used here is 
-<head> - In this I have link all google fonts(for displaying font), and most important i have linked javascript here in the head usually you find the javascript is link in the last stage of body because html program flow is top to bottom so firstly our html element will load then css element and then in last javascript is loaded and excueted but here i have link javascript in head section because i am using "defer" keyword so that my javascript will load parallel but will not executed unitl unless all html elment is loaded , that's why it's not giving error and code is wprking fine.
+  in head tag  I have link all google fonts(for displaying font), and most important i have linked javascript here in the head usually you find the javascript is link in the last stage of body because html program flow is top to bottom so firstly our html element will load then css element and then in last javascript is loaded and excueted but here i have link javascript in head section because i am using "defer" keyword so that my javascript will load parallel but will not executed unitl unless all html elment is loaded , that's why it's not giving error and code is wprking fine.
   
   
   actual code snippet = <script src="index.js" defer></script>
@@ -20,15 +20,15 @@ The tag which i have used here is
   Now moving forword to in <body>
   i haved used sevral classess which are-
   
-  .box - This is container to centering the app.
-  .Heading - Header section
-  .question - which diplay the text to be typed.
-  .typingarea - the container in which user type.
-  .button - conatiner which contains start button to start the timmer to count time and after that to reset it.
-  .btn-  start button to start the timmer to count time and after that to reset it.
-  .btn:hover - hover property to on start button.
-  .type - the content to be typed by user.
-  .result - result container to display the result such as wpm , accuray , mis-typed , righlty typed char.
+     .box - This is container to centering the app.
+      .Heading - Header section
+       .question - which diplay the text to be typed.
+          .typingarea - the container in which user type.
+             .button - conatiner which contains start button to start the timmer to count time and after that to reset it.
+                 .btn-  start button to start the timmer to count time and after that to reset it.
+                     .btn:hover - hover property to on start button.
+                           .type - the content to be typed by user.
+                           .result - result container to display the result such as wpm , accuray , mis-typed , righlty typed char.
   
   
   
